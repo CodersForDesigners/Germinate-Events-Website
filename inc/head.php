@@ -31,7 +31,7 @@ else
  * Get the title and URL of the website and current page
  */
 // $siteUrl = getSiteUrl();
-$siteTitle = getContent( 'Brownie As Fudge', 'site_title' );
+$siteTitle = getContent( 'Net Worth Ladder | Germinate Wealth', 'site_title' );
 $pageUrl = $siteUrl . $urlPath;
 $pageTitle = getCurrentPageTitle( $links, $baseURL, $siteTitle );
 
@@ -57,7 +57,7 @@ $pageTitle = getCurrentPageTitle( $links, $baseURL, $siteTitle );
 	- -->
 	<!-- Short description of the document (limit to 150 characters) -->
 	<!-- This content *may* be used as a part of search engine results. -->
-	<meta name="description" content="<?php echo getContent( '', 'description' ); ?>">
+	<meta name="description" content="<?php echo getContent( 'Spend an evening with Saurabh Mukherjea as he leads you on the low risk road to Stupendous Wealth.', 'description' ); ?>">
 	<!-- Short description of your document's subject -->
 	<meta name="subject" content="<?php echo getContent( '', 'subject' ); ?>">
 
@@ -93,22 +93,7 @@ $pageTitle = getCurrentPageTitle( $links, $baseURL, $siteTitle );
 	<meta name="theme-color" content="<?php echo getContent( '#f9f9f9', 'theme_color' ); ?>">
 
 	<!-- Favicons -->
-	<link rel="apple-touch-icon" sizes="57x57" href="media/favicon/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="media/favicon/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="media/favicon/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="media/favicon/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="media/favicon/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="media/favicon/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="media/favicon/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="media/favicon/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="media/favicon/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="media/favicon/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="media/favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="media/favicon/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="media/favicon/favicon-16x16.png">
-	<link rel="manifest" href="media/favicon/manifest.json">
-	<meta name="msapplication-TileColor" content="#444444">
-	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<link rel="icon" href="media/favicon/favicon.ico">
 
 
 	<!-- ~ iOS ~ -->
@@ -117,7 +102,7 @@ $pageTitle = getCurrentPageTitle( $links, $baseURL, $siteTitle );
 	<!-- Launch Screen Image -->
 	<!-- <link rel="apple-touch-startup-image" href="/path/to/launch.png"> -->
 	<!-- Launch Icon Title -->
-	<meta name="apple-mobile-web-app-title" content="<?php echo getContent( 'Brown.ie', 'apple -> ios_app_title' ); ?>">
+	<meta name="apple-mobile-web-app-title" content="<?php echo getContent( 'Germinate Events', 'apple -> ios_app_title' ); ?>">
 	<!-- Enable standalone (full-screen) mode -->
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<!-- Status bar appearance (has no effect unless standalone mode is enabled) -->
@@ -139,13 +124,13 @@ $pageTitle = getCurrentPageTitle( $links, $baseURL, $siteTitle );
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="<?php echo $pageTitle ?>">
 	<meta property="og:image" content="<?php echo getContent( '', 'og -> image' ) ?>">
-	<meta property="og:description" content="<?php echo getContent( '', 'og -> description' ) ?>">
+	<meta property="og:description" content="<?php echo getContent( 'Spend an evening with Saurabh Mukherjea as he leads you on the low risk road to Stupendous Wealth.', 'og -> description' ) ?>">
 	<meta property="og:site_name" content="<?php echo getContent( '', 'site_title' ) ?>">
 
 
 	<!-- Schema.org / Google+ -->
 	<meta itemprop="name" content="<?php echo $pageTitle ?>">
-	<meta itemprop="description" content="<?php echo getContent( 'This is a website', 'schema -> description' ) ?>">
+	<meta itemprop="description" content="<?php echo getContent( 'Spend an evening with Saurabh Mukherjea as he leads you on the low risk road to Stupendous Wealth.', 'schema -> description' ) ?>">
 	<meta itemprop="image" content="<?php echo getContent( '', 'schema -> image' ) ?>">
 
 
