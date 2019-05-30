@@ -1,0 +1,99 @@
+/*
+ * Event Page
+ */
+
+
+@media( min-width: 640px )  {}
+@media( min-width: 1040px ) {}
+@media( min-width: 1480px ) {}
+
+.intro-section {
+	box-shadow: 0 10px 30px 5px rgba(90,90,90,0.2), 0 3px 15px 2px rgba(30,30,30,0.1);
+	background-image: url('../../media/saurabh-mukherjea-1480.png');
+	background-size: cover;
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	min-height: 760px;
+}
+
+.intro-section .logo { width: 160px; }
+.intro-section .title { line-height: 1; }
+
+@media( min-width: 640px )  {
+	.intro-section .logo { width: 240px; }
+
+	.intro-section {
+		min-height: 64vw;
+	}
+
+}
+@media( min-width: 1040px ) {
+	.intro-section {
+		min-height: 55vw;
+	}
+}
+@media( min-width: 1480px ) {
+	.intro-section .logo { width: 320px; }
+}
+
+
+.event-section {
+	background-image: url('../../media/author-books-min.png'), url('../../media/author-books-min-bg.png');
+	background-size: 450px;
+	background-position: 50% 100%;
+	background-repeat: no-repeat, repeat;
+	padding-bottom: 350px;
+}
+
+@media( min-width: 400px )  {
+	.event-section {
+		background-size: 640px;
+		background-position: 50% 100%;
+		padding-bottom: 500px;
+	}
+}
+
+@media( min-width: 640px )  {
+	.event-section {
+		background-size: 400px;
+		background-position: 100% 100%;
+		padding-bottom: 100px;
+	}
+}
+
+@media( min-width: 800px )  {
+	.event-section {
+		background-size: 480px;
+		padding-bottom: 150px;
+	}
+}
+@media( min-width: 1040px ) {
+	.event-section {
+		background-size: 600px;
+		padding-bottom: 180px;
+	}
+}
+@media( min-width: 1200px ) {
+	.event-section {
+		background-size: 800px;
+		padding-bottom: 350px;
+	}
+}
+@media( min-width: 1480px ) {
+	.event-section {
+		background-size: 900px;
+		padding-bottom: 350px;
+	}
+}
+@media( min-width: 1600px ) {
+	.event-section {
+		background-size: 1040px;
+		padding-bottom: 450px;
+	}
+}
+@media( min-width: 1940px ) {
+	.event-section {
+		background-size: 1200px;
+		padding-bottom: 550px;
+	}
+}
