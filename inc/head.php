@@ -123,7 +123,7 @@ $pageTitle = getCurrentPageTitle( $links, $baseURL, $siteTitle );
 	<meta property="og:url" content="<?php echo $pageUrl ?>">
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="<?php echo $pageTitle ?>">
-	<meta property="og:image" content="<?php echo getContent( '', 'og -> image' ) ?>">
+	<meta property="og:image" content="<?php echo getContent( 'media/germinate-logo-screengrab.png' . $ver, 'og -> image' ) ?>">
 	<meta property="og:description" content="<?php echo getContent( 'Spend an evening with Saurabh Mukherjea as he leads you on the low risk road to Stupendous Wealth.', 'og -> description' ) ?>">
 	<meta property="og:site_name" content="<?php echo getContent( '', 'site_title' ) ?>">
 
@@ -131,7 +131,7 @@ $pageTitle = getCurrentPageTitle( $links, $baseURL, $siteTitle );
 	<!-- Schema.org / Google+ -->
 	<meta itemprop="name" content="<?php echo $pageTitle ?>">
 	<meta itemprop="description" content="<?php echo getContent( 'Spend an evening with Saurabh Mukherjea as he leads you on the low risk road to Stupendous Wealth.', 'schema -> description' ) ?>">
-	<meta itemprop="image" content="<?php echo getContent( '', 'schema -> image' ) ?>">
+	<meta itemprop="image" content="<?php echo getContent( 'media/germinate-logo-screengrab.png' . $ver, 'schema -> image' ) ?>">
 
 
 	<!--
@@ -160,6 +160,14 @@ $pageTitle = getCurrentPageTitle( $links, $baseURL, $siteTitle );
 ARB
 , 'fonts_and_icons' ) ?>
 
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-P5V6XKT');
+    </script>
+    <!-- End Google Tag Manager -->
 
 	<?php
 		/*

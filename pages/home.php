@@ -38,7 +38,7 @@
 				<div class="title h2 text-uppercase strong space-min-bottom">Net Worth Ladder</div>
 				<div class="h4 text-uppercase space-half-bottom">An audience with Saurabh Mukherjea</div>
 
-				<div class="p space-min-bottom">5 PM - 15th June - Conrad, Bangalore.</div>
+				<div class="p space-min-bottom">4:30 PM - 15th June, 2019 - Conrad, Bangalore.</div>
 				<a class="button" href="#register">Register Now</a>
 			</div>
 		</div>
@@ -52,14 +52,14 @@
 	<div class="row">
 		<div class="container">
 			<div class="columns small-12 large-8 large-offset-2 xlarge-6 xlarge-offset-3">
-				<div class="h3 text-uppercase space-min-bottom text-center">The Low Risk Road to <strong>Stupendous Wealth</strong></div>
+				<div class="h3 text-uppercase space-min-bottom text-center">The Low-Risk Road to <strong>Stupendous Wealth</strong></div>
 			</div>
 			<div class="columns small-12 large-8 large-offset-2 space-min">
-				<div class="p text-center">Germinate in association with Marcellus gives you the chance to share a cup of coffee with the legendary portfolio manager and equity strategist. Be a part of an exclusive evening as <strong>Saurabh Mukherjea</strong> himself leads us on the low risk road to Stupendous Wealth.</div>
+				<div class="p text-center">Germinate in association with Marcellus gives you the chance to share a cup of coffee with the legendary portfolio manager and equity strategist. Be a part of an exclusive evening as <strong>Saurabh Mukherjea</strong> himself leads us on the low-risk road to Stupendous Wealth.</div>
 			</div>
 			<div class="columns small-12 space-half-top-bottom space-min">
 				<div class="label text-uppercase strong text-center text-green space-min-bottom">Watch the event promo</div>
-				<div class="video-embed js_video_embed" data-src="niA4QLc-9mc">
+				<div class="video-embed js_video_embed" data-src="O_Pqarf5fLI">
 					<div class="video-loading-indicator"></div>
 				</div>
 			</div>
@@ -70,7 +70,7 @@
 					</div>
 					<div class="columns small-9 small-offset-1">
 						<div class="h4 text-uppercase space-min-bottom">Best Selling <br>Author</div>
-						<div class="p text-neutral">Bestselling author of Gurus of Chaos and The Unusual Billionaires, Saurabh Mukherjea’s latest bestseller Coffee Can Investing introduces us to a paradigm of investment that is potent and shockingly simple. </div>
+						<div class="p text-neutral">Bestselling author of <a href="https://www.amazon.in/Gurus-Chaos-Modern-Indias-Masters/dp/9384052558" target="_blank" style="color: var(--green); box-shadow: 0 -1px white inset, 0 -3px var(--green) inset;">Gurus of Chaos</a> and <a href="https://www.amazon.in/Unusual-Billionaires-Saurabh-Mukherjea/dp/0670089257" target="_blank" style="color: var(--green); box-shadow: 0 -1px white inset, 0 -3px var(--green) inset;">The Unusual Billionaires</a>, Saurabh Mukherjea’s latest bestseller <a href="https://www.amazon.in/Coffee-Can-Investing-Stupendous-Wealth/dp/067009045X" target="_blank" style="color: var(--green); box-shadow: 0 -1px white inset, 0 -3px var(--green) inset;">Coffee Can Investing</a> introduces us to a paradigm of investment that is potent and shockingly simple. </div>
 					</div>
 				</div>
 			</div>
@@ -81,7 +81,7 @@
 					</div>
 					<div class="columns small-9 small-offset-1">
 						<div class="h4 text-uppercase space-min-bottom">10X the returns in 10 years.</div>
-						<div class="p text-neutral">What if you could make not 10 not 15 but 20 per cent compound annual growth rate (CAGR) on your investments? </div>
+						<div class="p text-neutral">What if you could make not 10 not 15 but 20% compound annual growth rate (CAGR) on your investments? </div>
 					</div>
 				</div>
 			</div>
@@ -198,11 +198,11 @@
 		<div class="container">
 			<div class="columns small-12 medium-10 medium-offset-1 large-8 large-offset-2 space-min">
 				<div class="p text-uppercase strong space-min-bottom">Call for Assistance</div>
-				<a class="h3 inline-middle strong text-green space-three-quarter-bottom" href="tel:+918197747676">+91 81977 47676</a>
+				<a class="h3 inline-middle strong text-green space-three-quarter-bottom js_track" data-url="call-number" href="tel:+918197747676">+91 81977 47676</a>
 
 				<div class="space-three-quarter-bottom">
-					<div class="p space-min-bottom"><strong>Event Timings</strong>: <br>5PM Onwards, 15th of June.</div>
-					<div class="p"><strong>Location</strong>:<br>The Daffodil Hall, Conrad, Bangalore.</div>
+					<div class="p space-min-bottom"><strong>Event Timings</strong>: <br>4:30 PM, 15th of June, 2019.</div>
+					<div class="p"><strong>Location</strong>:<br>Junior ballroom, CONRAD<br>25/3, Kensington Rd, Halasuru,<br>Bengaluru, Karnataka 560008</div>
 				</div>
 
 				<div class="row">

@@ -28,6 +28,12 @@ http_response_code( 200 );
 
 	<body id="body" class="body">
 
+        <!-- Google Tag Manager (noscript) -->
+        <noscript>
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P5V6XKT" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+        <!-- End Google Tag Manager (noscript) -->
+
 		<?php
 			/*
 			 * Arbitrary Code ( Top of Body )

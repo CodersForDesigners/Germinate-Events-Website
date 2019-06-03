@@ -86,6 +86,7 @@ $( document ).on( "submit", ".js_registration_form", async function ( event ) {
 	 addRegistration( information )
 	 	.then( function () {
 	 		$feedbackMessage.text( "You're registration has been accepted! We’ll get back to you with the details." );
+	 		trackPageVisit( "form-fill" );
 	 	} )
 	 	.catch( function () {
 	 		$feedbackMessage.text( "Something went wrong. Please try again later." );
