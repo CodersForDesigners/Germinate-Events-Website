@@ -9,7 +9,7 @@
 
 .intro-section {
 	box-shadow: 0 10px 30px 5px rgba(90,90,90,0.2), 0 3px 15px 2px rgba(30,30,30,0.1);
-	background-image: url('../../media/saurabh-mukherjea-1480.png');
+	background-image: url('../../media/saurabh-mukherjea-640.png?v=20190604');
 	background-size: cover;
 	background-position: right bottom;
 	background-repeat: no-repeat;
@@ -20,6 +20,8 @@
 .intro-section .title { line-height: 1; }
 
 @media( min-width: 640px )  {
+	.intro-section { background-image: url('../../media/saurabh-mukherjea-1480.png?v=20190604'); }
+	
 	.intro-section .logo { width: 240px; }
 
 	.intro-section {
@@ -38,7 +40,7 @@
 
 
 .event-section {
-	background-image: url('../../media/author-books-min.png'), url('../../media/author-books-min-bg.png');
+	background-image: url('../../media/author-books-min.png?v=20190604'), url('../../media/author-books-min-bg.png?v=20190604');
 	background-size: 450px;
 	background-position: 50% 100%;
 	background-repeat: no-repeat, repeat;
@@ -95,5 +97,179 @@
 	.event-section {
 		background-size: 1200px;
 		padding-bottom: 550px;
+	}
+}
+
+
+/* -- Register Section -- */
+
+.register-section .card {
+	padding: var(--space-half);
+	border-radius: var(--space-min);
+	box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.1), 0 2px 10px 2px rgba(0, 0, 0, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+.register-section .ticket {
+	padding-bottom: var(--space-min);
+}
+
+.register-section .h2 {
+	line-height: 1.2;
+	font-size: 3.2rem;
+	letter-spacing: 0;
+}
+
+.register-section .h6 {
+	font-size: 1.3rem;
+}
+
+.register-section .price {
+	position: relative;
+	padding-bottom: var(--space-quarter);
+}
+.register-section .price * {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.register-section .price .h2 {
+	display: block;
+	padding-bottom: var(--space-min);
+}
+
+.register-section .price .h4 {
+	vertical-align: middle;
+}
+
+.register-section .price .h6 {
+	position: relative;
+	line-height: 1.2;
+	padding: 0 12px 0 4px;
+	vertical-align: middle;
+}
+
+.register-section .price .h6:before {
+	content: "";
+	position: absolute;
+	right: 0px;
+	top: 0;
+	width: 0;
+	height: 0;
+	border-right: 7.5px solid var(--light);
+	border-top: 7.5px solid transparent;
+	border-bottom: 7.5px solid transparent;
+}
+
+.register-section .event-label {
+	padding-bottom: var(--space-min);
+}
+
+.register-section .quantity *,
+.register-section .quantity *:focus {
+	outline: none !important;
+}
+
+@media( min-width: 640px )  {
+	.register-section .h2 {
+		font-size: 4.5rem;
+	}
+
+	.register-section .price .h2 {
+		display: inline-block;
+		padding-bottom: 0;
+		float: left;
+		padding-right: var(--space-min);
+	}
+
+	.register-section .price .h4 {
+		vertical-align: top;
+		line-height: 1;
+		margin-top: 3px;
+	}
+
+	.register-section .price .h6 {
+		vertical-align: top;
+	}
+
+	.register-section .event-label {
+		padding-bottom: 0;
+		padding-right: var(--space-min);
+	}
+}
+@media( min-width: 1040px ) {
+	.register-section .card {
+		min-height: 250px;
+		padding: var(--space-quarter);
+	}
+
+	.register-section .h2 {
+		font-size: 6.0rem;
+	}
+
+	.register-section .h6 {
+		font-size: 1.5rem;
+	}
+
+	.register-section .ticket {
+		padding-bottom: 0;
+		padding-right: var(--space-min);
+	}
+
+	.register-section .price .h4 {
+		margin-top: 9px;
+	}
+
+	.register-section .price .h6 {
+		margin-top: 12px;
+		padding: 0 14px 0 4px;
+	}
+
+	.register-section .price .h6:before {
+		border-right: 9px solid var(--light);
+		border-top: 9px solid transparent;
+		border-bottom: 9px solid transparent;
+	}
+
+	.register-section .event-label {
+		padding-bottom: 0;
+		padding-right: var(--space-half);
+	}
+
+	.register-section .ticket-label {
+		margin-top: 24px;
+	}
+}
+@media( min-width: 1480px ) {
+	.register-section .card {
+		min-height: 350px;
+	}
+
+	.register-section .h2 {
+		font-size: 8.5rem;
+	}
+
+	.register-section .h6 {
+		font-size: 1.8rem;
+	}
+
+	.register-section .price .h4 {
+		margin-top: 15px;
+	}
+
+	.register-section .price .h6 {
+		margin-top: 20px;
+		margin-left: 5px;
+		padding: 0 15px 0 4px;
+		line-height: 1.25;
+	}
+
+	.register-section .price .h6:before {
+		border-right: 11px solid var(--light);
+		border-top: 11px solid transparent;
+		border-bottom: 11px solid transparent;
+	}
+
+	.register-section .ticket-label {
+		margin-top: 37px;
 	}
 }

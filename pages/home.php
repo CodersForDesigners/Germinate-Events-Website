@@ -154,7 +154,59 @@
 			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-4 space-min">
 				<div class="h3 text-uppercase strong text-center space-min-bottom">Register Now</div>
 				<div class="p text-center space-min-bottom text-green">Book before the 7th of June and get an early bird discount on your tickets.</div>
-				<div class="h5 text-uppercase text-center space-half-bottom"><span class="text-neutral text-strike">₹1999</span> ₹499/-</div>
+			</div>
+
+			<div class="columns small-12 medium-8 medium-offset-2 space-min">
+				<div class="row">
+					<div class="columns small-12 large-9 ticket">
+						<div class="card fill-light">
+							<div class="h2 text-uppercase strong text-off-neutral">Event Ticket</div>
+							<div class="price clearfix">
+								<div class="h2 text-uppercase strong text-off-neutral text-strike">₹1999</div>
+								<div class="h4 text-uppercase strong text-dark">₹499</div>
+								<div class="h6 text-uppercase strong fill-green">Early bird Price</div>
+							</div>
+							<div class="event-label inline-top">
+								<div class="h6 text-uppercase strong text-dark">Event</div>
+								<a class="h6 block text-uppercase strong text-green" href="https://calendar.google.com/calendar/r/eventedit?text=Net+Worth+Ladder+-+An+Audience+with+Saurabh+Mukherjea&dates=20190615T106000Z/20190615T126000Z&details=For+More+Details,+visit+:+https://germinatewealth.com/&location=Conrad+Bengaluru,+25/3,+Kensington+Rd,+Someshwarpura,+Halasuru,+Bengaluru,+Karnataka+560008,+India&sf=true&output=xml" target="_blank">4:30pm, 15 June, 2019</a>
+							</div>
+							<div class="location-label inline-top">
+								<div class="h6 text-uppercase strong text-dark">Location</div>
+								<a class="h6 block text-uppercase strong text-green" href="https://goo.gl/maps/xi9ur3jMw9yuVTwZ7" target="_blank">Open in Google Maps</a>
+							</div>
+						</div>
+					</div>
+					<div class="columns small-12 large-3 stub">
+						<div class="card fill-green">
+							<div class="row">
+								<div class="columns small-12 large-12">
+									<div class="h4 text-uppercase strong text-light space-min-bottom">Admit Persons</div>
+								</div>
+								<div class="columns small-6 large-12 inline-bottom">
+									<div class="quantity text-center text-uppercase strong text-light">
+										<div class="row">
+											<div class="h2 columns small-4 cursor-pointer" tabindex="-1">
+												-
+											</div>
+											<div class="h2 columns small-4">
+												1
+											</div>
+											<div class="h2 columns small-4 cursor-pointer" tabindex="-1">
+												+
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="columns small-5 small-offset-1 large-12 large-offset-0 inline-bottom">
+									<div class="ticket-label">
+										<div class="h6 text-uppercase strong text-off-neutral">Ticket</div>
+										<div class="h6 text-uppercase strong text-light">№.0912830182</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 
 			<form class="js_registration_form">
