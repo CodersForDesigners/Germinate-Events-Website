@@ -27,14 +27,14 @@
 
 
 	<!-- JS Modules -->
-	<script type="text/javascript" src="/js/modules/utils.js"></script>
+	<script type="text/javascript" src="/js/modules/utils.js<?= $ver ?>"></script>
 	<!-- <script type="text/javascript" src="/js/modules/device-charge.js"></script> -->
-	<script type="text/javascript" src="/js/modules/video_embed.js"></script>
+	<script type="text/javascript" src="/js/modules/video_embed.js<?= $ver ?>"></script>
 	<!-- <script type="text/javascript" src="/js/modules/modal_box.js"></script> -->
-	<script type="text/javascript" src="/js/modules/carousel.js"></script>
-	<script type="text/javascript" src="/js/form.js"></script>
-	<script type="text/javascript" src="/js/tracking.js"></script>
-	<script type="text/javascript" src="/js/modules/disclaimer.js"></script>
+	<script type="text/javascript" src="/js/modules/carousel.js<?= $ver ?>"></script>
+	<script type="text/javascript" src="/js/form.js<?= $ver ?>"></script>
+	<script type="text/javascript" src="/js/tracking.js<?= $ver ?>"></script>
+	<script type="text/javascript" src="/js/modules/disclaimer.js<?= $ver ?>"></script>
 
 	<script type="text/javascript">
 
