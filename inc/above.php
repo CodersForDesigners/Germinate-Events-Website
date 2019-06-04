@@ -11,7 +11,7 @@ require_once __DIR__ . '/lazaro.php';
 /*
  * A version number for versioning assets to invalidate the browser cache
  */
-$ver = '?v=20181126';
+$ver = '?v=20190604';
 
 // #fornow
 // Just so that when some social media service (WhatsApp) try to ping URL,
