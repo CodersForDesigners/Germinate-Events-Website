@@ -1,6 +1,32 @@
 
 /*
  * -----
+ * When the persons buttons are toggle
+ * -----
+ */
+$( ".js_add_person" ).on( "click", function ( event ) {
+	var $persons = $( ".js_registration_form [ name = 'persons' ]" );
+	var persons = parseInt( $persons.val(), 10 );
+	if ( persons == 9 )
+		return;
+	persons += 1;
+	$persons.val( persons );
+	var $personsUI = $( ".js_persons" );
+	$personsUI.text( persons );
+} );
+$( ".js_remove_person" ).on( "click", function ( event ) {
+	var $persons = $( ".js_registration_form [ name = 'persons' ]" );
+	var persons = parseInt( $persons.val(), 10 );
+	if ( persons == 1 )
+		return;
+	persons -= 1;
+	$persons.val( persons );
+	var $personsUI = $( ".js_persons" );
+	$personsUI.text( persons );
+} );
+
+/*
+ * -----
  * On submitting the Customer form, create a customer
  * -----
  */
@@ -32,6 +58,8 @@ $( document ).on( "submit", ".js_registration_form", async function ( event ) {
 	var $phoneNumber = $form.find( "[ name = 'phoneNumber' ]" );
 		// Email address
 	var $emailAddress = $form.find( "[ name = 'emailAddress' ]" );
+		// Persons
+	var $persons = $form.find( "[ name = 'persons' ]" );
 
 	/* -----
 	 * Sanitize the data
@@ -79,6 +107,7 @@ $( document ).on( "submit", ".js_registration_form", async function ( event ) {
 	information.name = $name.val();
 	information.phoneNumber = $phoneNumber.val();
 	information.emailAddress = $emailAddress.val();
+	information.persons = $persons.val();
 
 	/* -----
 	 * Make the enquiry

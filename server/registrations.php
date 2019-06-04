@@ -78,6 +78,12 @@ if ( empty( $input[ 'emailAddress' ] ) ) {
 	http_response_code( 400 );
 	die( json_encode( $response ) );
 }
+if ( empty( $input[ 'persons' ] ) ) {
+	$response[ 'statusCode' ] = 4004;
+	$response[ 'message' ] = 'Please provide the number of people attending.';
+	http_response_code( 400 );
+	die( json_encode( $response ) );
+}
 
 
 
@@ -90,7 +96,7 @@ if ( empty( $input[ 'emailAddress' ] ) ) {
  */
 // Phone number
 if ( ! preg_match( '/^\+?\d+$/', $input[ 'phoneNumber' ] ) ) {
-	$response[ 'statusCode' ] = 4004;
+	$response[ 'statusCode' ] = 4005;
 	$response[ 'message' ] = 'Please provide a valid phone number.';
 	http_response_code( 400 );
 	die( json_encode( $response ) );
@@ -118,7 +124,8 @@ if ( ! empty( $input[ 'emailAddress' ] ) ) {
 $formData = [
 	'name' => $input[ 'name' ],
 	'phoneNumber' => $input[ 'phoneNumber' ],
-	'emailAddress' => $input[ 'emailAddress' ]
+	'emailAddress' => $input[ 'emailAddress' ],
+	'persons' => $input[ 'persons' ]
 ];
 
 

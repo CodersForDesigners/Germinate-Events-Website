@@ -83,7 +83,8 @@ function submit ( $data ) {
 	$requestBody = [
 		'entry.1332539612' => $data[ 'phoneNumber' ],
 		'entry.403812388' => $data[ 'emailAddress' ],
-		'entry.1640072886' => $data[ 'name' ]
+		'entry.1640072886' => $data[ 'name' ],
+		'entry.955943189' => $data[ 'persons' ]
 	];
 
 	$response = getAPIResponse( $endpoint, 'POST', $requestBody );

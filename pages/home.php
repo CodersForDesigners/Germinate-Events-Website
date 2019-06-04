@@ -185,13 +185,13 @@
 								<div class="columns small-6 large-12 inline-bottom">
 									<div class="quantity text-center text-uppercase strong text-light">
 										<div class="row">
-											<div class="h2 columns small-4 cursor-pointer" tabindex="-1">
+											<div class="h2 columns small-4 cursor-pointer js_remove_person" tabindex="-1">
 												-
 											</div>
-											<div class="h2 columns small-4">
+											<div class="h2 columns small-4 js_persons">
 												1
 											</div>
-											<div class="h2 columns small-4 cursor-pointer" tabindex="-1">
+											<div class="h2 columns small-4 cursor-pointer js_add_person" tabindex="-1">
 												+
 											</div>
 										</div>
@@ -228,6 +228,7 @@
 					<input class="block" type="text" name="emailAddress" placeholder="Email ID">
 					</label>
 				</div>
+				<input type="text" name="persons" value="1" class="hidden">
 				<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 space-min">
 					<label>
 						<span class="visuallyhidden">Register</span>
