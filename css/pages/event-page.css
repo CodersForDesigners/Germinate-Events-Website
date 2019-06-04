@@ -21,7 +21,7 @@
 
 @media( min-width: 640px )  {
 	.intro-section { background-image: url('../../media/saurabh-mukherjea-1480.png?v=20190604'); }
-	
+
 	.intro-section .logo { width: 240px; }
 
 	.intro-section {
@@ -167,6 +167,10 @@
 .register-section .quantity *,
 .register-section .quantity *:focus {
 	outline: none !important;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 
 @media( min-width: 640px )  {
