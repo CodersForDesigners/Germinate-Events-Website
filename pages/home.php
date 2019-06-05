@@ -168,7 +168,7 @@
 							</div>
 							<div class="event-label inline-top">
 								<div class="h6 text-uppercase strong text-dark">Event</div>
-								<a class="h6 block text-uppercase strong text-green" href="https://calendar.google.com/calendar/r/eventedit?text=Net+Worth+Ladder+-+An+Audience+with+Saurabh+Mukherjea&dates=20190615T106000Z/20190615T126000Z&details=For+More+Details,+visit+:+https://germinatewealth.com/&location=Conrad+Bengaluru,+25/3,+Kensington+Rd,+Someshwarpura,+Halasuru,+Bengaluru,+Karnataka+560008,+India&sf=true&output=xml" target="_blank">4:30pm, 15 June, 2019</a>
+								<a class="h6 block text-uppercase strong text-green" href="https://calendar.google.com/calendar/r/eventedit?text=Net+Worth+Ladder+-+An+Audience+with+Saurabh+Mukherjea&dates=20190615T106000Z/20190615T126000Z&details=For+More+Details,+visit+:+https://events.germinatewealth.com/&location=Conrad+Bengaluru,+25/3,+Kensington+Rd,+Someshwarpura,+Halasuru,+Bengaluru,+Karnataka+560008,+India&sf=true&output=xml" target="_blank">4:30pm, 15 June, 2019</a>
 							</div>
 							<div class="location-label inline-top">
 								<div class="h6 text-uppercase strong text-dark">Location</div>
