@@ -153,7 +153,7 @@
 		<div class="container">
 			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-4 space-min">
 				<div class="h3 text-uppercase strong text-center space-min-bottom">Register Now</div>
-				<div class="p text-center space-min-bottom text-green">Book before the 7th of June and get an early bird discount on your tickets.</div>
+				<!-- <div class="p text-center space-min-bottom text-green">Book before the 7th of June and get an early bird discount on your tickets.</div> -->
 			</div>
 
 			<div class="columns small-12 medium-8 medium-offset-2 space-min">
@@ -162,9 +162,9 @@
 						<div class="card fill-light">
 							<div class="h2 text-uppercase strong text-off-neutral">Event Ticket</div>
 							<div class="price clearfix">
-								<div class="h2 text-uppercase strong text-off-neutral text-strike">₹1999</div>
-								<div class="h4 text-uppercase strong text-dark">₹499</div>
-								<div class="h6 text-uppercase strong fill-green">Early bird Price</div>
+								<div class="h2 text-uppercase strong text-green">₹1999</div>
+								<!-- <div class="h4 text-uppercase strong text-dark">₹499</div> -->
+								<!-- <div class="h6 text-uppercase strong fill-green">Early bird Price</div> -->
 							</div>
 							<div class="event-label inline-top">
 								<div class="h6 text-uppercase strong text-dark">Event</div>
