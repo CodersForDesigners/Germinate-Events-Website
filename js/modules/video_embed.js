@@ -16,13 +16,13 @@ function initialiseVideoEmbeds () {
 			// Add the origin parameter
 	 		// This is to protect against malicious third-party JavaScript being
 	 		// injected into the page and hijacking control of the YouTube player.
-			src: "https://www.youtube.com/embed/" + el.dataset.src + "?html5=1&color=white&disablekb=1&fs=0&autoplay=0&loop=0&modestbranding=1&playsinline=1&rel=0&showinfo=0&origin=" + location.origin,
+			src: "https://www.youtube.com/embed/" + el.dataset.src + "?html5=1&color=white&disablekb=1&fs=1&autoplay=0&loop=0&modestbranding=1&rel=0&showinfo=0&origin=" + location.origin,
 			frameborder: 0,
 			allow: "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
 			allowfullscreen: ""
 		};
 		if ( $( el ).hasClass( ".js_video_get_player" ) )
-			attributes.src += "&enablejsapi=1&mute=1&controls=0";
+			attributes.src += "&enablejsapi=1&mute=1&fs=0&controls=0&playsinline=1";
 		$iframe.attr( attributes );
 		$( el ).append( $iframe );
 	} );
